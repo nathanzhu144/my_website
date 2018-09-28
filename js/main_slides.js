@@ -14,6 +14,8 @@ function roulette(){
         index = 1;
     }
 
+    console.log(index);
+
     x[index - 1].style.display = "block";
     setTimeout(roulette, 3000);
 }
