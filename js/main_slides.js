@@ -4,18 +4,15 @@ roulette();
 function roulette(){
     var i;
     var x = document.getElementsByClassName("mySlides");
+
+    //Making all of the slides disappear
     for(i = 0; i < x.length; ++i){
         x[i].style.display = "none";
     }
-
+    
     index++;
 
-    if(index > x.length){
-        index = 1;
-    }
-
-    console.log(index);
-
-    x[index - 1].style.display = "block";
-    setTimeout(roulette, 3000);
+    x[index % x.length].style.display = "block";
+    x[(index + 1) % x.length].style.display = "block";
+    setTimeout(roulette, 4000);
 }
