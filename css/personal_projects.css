@@ -1,0 +1,14 @@
+/* 
+   *  Nathan Zhu
+   *  9/28/2018
+   *   
+   *  This is the css for personal_projects.html
+ */
+
+.project_photo{
+    float: right;
+}
+
+.project_description{
+    float: left;
+}
