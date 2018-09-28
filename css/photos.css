@@ -1,0 +1,13 @@
+
+/*Two images, 50% width for each*/
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}

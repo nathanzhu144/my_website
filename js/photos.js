@@ -1,5 +1,5 @@
 var index = 0;
-roulette("mySlides");
+roulette("my_photos");
 
 //Requires: a class name tag for which class to make a slide show of
 //Modifies: Nothing.
@@ -22,5 +22,5 @@ function roulette(class_name){
     //x[(index + 3) % x.length].style.display = "block";
 
     //Every 4 seconds, call function again
-    setTimeout(roulette, 4000);
+    setTimeout(roulette, 2000);
 }
