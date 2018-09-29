@@ -6,9 +6,13 @@
  */
 
 .project_photo{
-    float: right;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .project_description{
-    float: left;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px;
 }
