@@ -1,15 +1,22 @@
+<!--
+   *  Nathan Zhu
+   *  9/28/2018
+   *   
+   *  This is the html for the home page
+-->
+
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
 <head>
-
+    <!--This is where the css for the photos goes-->
+    <link rel="stylesheet" href="../css/home.css">
 </head>
 
 <body>
-
-
+    <!--Navigation bar-->
     <nav class="w3-bar w3-black w3-card">
         <a href="../html/home.html" class="w3-button w3-bar-item">Home</a>
         <a href="../html/about_me.html" class="w3-button w3-bar-item">About me</a>
@@ -19,23 +26,92 @@
         <a href="https://github.com/nathanzhu144" class="w3-button w3-bar-item"> Github </a>
     </nav>
 
-    <div>
-        <img src="../photos/home/snowy_main_page.jpg" style="width:100%">
+    <!--Title bar-->
+    <div class="w3-padding-32 w3-black" style="max-width: width 800px" id="title">
+        <h2 class="w3-wide w3-center">std::cout << "Nathan Zhu";</h2>
+        <p class="w3-opacity w3-center">Hello world.  I love tinkering on Linux distributions, learning new coding languages, and hiking mountains in my free time.
+                                           Check out my <a href="../html/personal_projects.html"><i> personal projects! </i></a></p><br>
+    </div>
+
+    <!--This is the beginning of the four-photo slideshow.  The first div for is the top two photos
+        and the second div is the bottom two photos.-->
+    <div class="row">
+        <div class="column">
+            <img class="my_photos_red" src="../photos/home/red/r1.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r2.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r3.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r4.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r5.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r6.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r7.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r8.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r9.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r10.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r11.jpg" style="width:100%">
+            <img class="my_photos_red" src="../photos/home/red/r12.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img class="my_photos_black" src="../photos/home/black1/b1.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b2.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b3.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b4.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b5.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b6.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b7.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b8.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b9.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b10.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b11.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b12.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b13.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b14.jpg" style="width:100%">
+            <img class="my_photos_black" src="../photos/home/black1/b15.jpg" style="width:100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img class="my_photos_black_two" src="../photos/home/black2/b1.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b2.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b3.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b4.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b5.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b6.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b7.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b8.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b9.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b10.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b11.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b12.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b13.jpg" style="width:100%">
+            <img class="my_photos_black_two" src="../photos/home/black2/b14.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img class="my_photos_green" src="../photos/home/green/g1.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g2.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g3.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g4.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g5.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g6.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g7.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g8.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g9.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g10.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g11.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g12.jpg" style="width:100%">
+            <img class="my_photos_green" src="../photos/home/green/g13.jpg" style="width:100%">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="w3-black footer" id="footer">
+        <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
+            <h2 class="w3-wide w3-center">return 0;</h2>
+            <p class="w3-opacity w3-center"><i>Copyright 2018. All rights reserved.</i></p><br>
+        </div>
     </div>
 
 
-    <section class="w3-container w3-center">
-        <h2 class="we-wide">About Me</h2>
-        <p class="w3-opacity"><i>Hello!</i></p>
-    </section>
 
-    <section class="w3-container w3-content w3-center" style="max-width:600px">
-        <p class="w3-justify">
-            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </section>
-
+    <!--This is the javascript import for running the photo slideshow-->
+    <script type="text/javascript" src="../js/home.js"></script>
 </body>
-
-
-</html>
