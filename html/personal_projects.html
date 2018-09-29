@@ -31,8 +31,8 @@
 
     <!--Tile of page-->
     <section class="w3-container w3-center">
-        <h2 class="w3-wide">Nathan's Personal Projects</h2>
-        <p class="w3-opacity"><i>Coding is fun.</i></p>
+        <h1 class="w3-wide">Nathan's Personal Projects</h2>
+            <p class="w3-opacity"><i>Coding is fun.</i></p>
     </section>
 
     <section class="w3-container w3-content w3-center w3-white" style="max-width:800px">
@@ -60,30 +60,119 @@
 
     <!--Project 1-->
     <section class="w3-black">
-        <div class="w3-center">  <br> <br> <h1>My Projects</h1> </div>
+        <div class="w3-center"> <br> <br>
+            <h1>My Projects</h1>
+        </div>
+
+        <!--This is a horizontal bar-->
+        <hr class="horizontal_bar">
+
+        <div> <br> <br> </div>
         <div class="project_description w3-container w3-content">
 
-            <h3><i>Tomb Terror (C++) </i></h3>
+            <h1><i>Tomb Terror (C++) </i></h1>
 
-            Based off of the classic game of Pacman, with a twist, Tomb Terror is an interactive RPG
-            where crash-land into a dark forest, and are confronted with a predicament. To escape,
-            you must collect all of the pieces of your ship.
+            The classic game of Pacman, with a twist. Tomb Terror is an interactive RPG
+            where crash-land into a dark forest. To escape,
+            you must collect all of the pieces of your ship, which are scattered around the forest.
+            As nightfall approaches, you must hurry before the forest's mysterious
+            secrets come back to haunt you.
 
+            <br><br>
 
-
-            We created
+            In this project, I worked with a team of three other people. I helped implement
+            code design principles, such as polymorphic game objects to reduce code duplication,
+            and AI behavior under different conditions.
 
             <br><br>
 
             After pitching our project to companies at the EECS 183 Winter 2017 showcase, we were
-            awarded the
+            awarded the EECS183 Showcase Session winner for best Arduino game by Stryker in a showcase of 200+
+            participants.
         </div>
 
         <div class="project_photo">
-                <img src="../photos/personal_projects/tomb_terror.jpg" style="width:100%">
-            </div>
-            
+            <img src="../photos/personal_projects/tomb_terror.jpg" style="width:100%">
+        </div>
     </section>
+
+
+    <!--Project 2-->
+
+    <section class="w3-black">
+        <div><br> <br><br> </div>
+
+        <!--This is a horizontal bar-->
+        <hr class="horizontal_bar">
+
+        <div><br> <br> </div>
+
+        <div class="project_description w3-container w3-content">
+
+            <h1><i>Knight's Tour (C++) </i></h1>
+
+            I'd always wondered whether a knight on a given chessboard can travel to every other
+            square on the chessboard without stepping on a square twice. So, I coded it. 
+
+            <br> <br>
+            
+            Except, given the exponential nature of the problem (each a knight, at most, can move
+            to 8 other squares), the program took literally possibly forever to run for any board
+            sizes bigger than 7 x 7. However, after some optimizations, such as Warnsdorff's heuristic, the program can 
+            solve most boards up to 210 x 210.
+
+            <br> <br>
+
+            This problem is a narrower version of the more general NP-complete problem of Hamiltonian tours
+            in determining whether, given a graph and a set of undirected edges, it is possible to find a 
+            path that visits every node exactly once.
+
+            <br> <br>
+
+            Since I wrote a shell script, the program can be downloaded by just opening your terminal
+            and typing in two commands.  
+
+            <br> <br>
+
+            Here's a link to my <a href="https://github.com/nathanzhu144/knightstour">Knight's Tour</a>.
+        </div>
+
+        <div class="project_photo">
+            <img src="../photos/personal_projects/knights_tour.png" style="width:100%">
+        </div>
+    </section>
+
+
+    <!--Project 3-->
+
+    <section class="w3-black">
+            <div><br> <br><br> </div>
+    
+            <!--This is a horizontal bar-->
+            <hr class="horizontal_bar">
+    
+            <div><br> <br> </div>
+    
+            <div class="project_description w3-container w3-content">
+    
+                <h1><i>Battleships (In Progress - C++) </i></h1>
+
+                In progress of writing a turn-based battleships simulator.  More to come in the future.
+            </div>
+    
+     </section>
+
+     <section class="w3-black">
+            <div><br> <br><br> </div>
+    
+            <!--This is a horizontal bar-->
+            <hr class="horizontal_bar">
+
+            <div><br> <br><br> </div>
+
+    
+     </section>
+    
 
 
 
