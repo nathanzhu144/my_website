@@ -53,7 +53,7 @@ function black_roulette_one(){
     //x[(index + 3) % x.length].style.display = "block";
 
     //Every 4 seconds, call function again
-    setTimeout(black_roulette_one, 2000);
+    setTimeout(black_roulette_one, 3000);
 }
 
 //Requires: a class name tag for which class to make a slide show of
@@ -77,7 +77,7 @@ function black_roulette_two(){
     //x[(index + 3) % x.length].style.display = "block";
 
     //Every 4 seconds, call function again
-    setTimeout(black_roulette_two, 2000);
+    setTimeout(black_roulette_two, 3000);
 }
 
 //Requires: a class name tag for which class to make a slide show of
@@ -101,5 +101,5 @@ function green_roulette_one(){
     //x[(index + 3) % x.length].style.display = "block";
 
     //Every 4 seconds, call function again
-    setTimeout(green_roulette_one, 2000);
+    setTimeout(green_roulette_one, 3000);
 }
